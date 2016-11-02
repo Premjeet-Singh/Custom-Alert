@@ -1,0 +1,76 @@
+body{
+    background: forestgreen;
+}
+section{
+    width: 600px;
+    height: 330px;
+    padding: 20px;
+    margin: 100px auto;
+    background-color: lightgreen;
+    border: #234 2px solid;
+}
+
+#b1{
+    margin-left: 43px;
+    width: 163px;
+    height: 40px;
+    border: #567 2px solid;
+    font-size: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#b2{
+    margin-left: 8px;
+    width: 163px;
+    height: 40px;
+    border: #567 2px solid;
+    font-size: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#b3{
+    margin-left: 8px;
+    width: 163px;
+    height: 40px;
+    border: #567 2px solid;
+    font-size: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+h1, h2, h3{
+    padding: 5px;
+    margin: 20px auto;
+    width: 500px;
+    height: 50px;
+    border: #567 2px solid;
+    text-align: center;
+    line-height: 45px;
+    background-color: darkseagreen;
+    border-radius: 8px;
+}
+
+#dialogoverlay{
+	display: none;
+	opacity: .8;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	background: #FFF;
+	width: 100%;
+	z-index: 10;
+}
+#dialogbox{
+	display: none;
+	position: fixed;
+	background: #000;
+	border-radius:7px; 
+	width:550px;
+	z-index: 10;
+}
+#dialogbox > div{ background:#FFF; margin:8px; }
+#dialogbox > div > #dialogboxhead{ background: #666; font-size:19px; padding:10px; color:#CCC; }
+#dialogbox > div > #dialogboxbody{ background:#333; padding:20px; color:#FFF; }
+#dialogbox > div > #dialogboxfoot{ background: #666; padding:10px; text-align:right; }
